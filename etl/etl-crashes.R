@@ -207,3 +207,10 @@ write_csv(injury_lookup, "data/injury-lookup.csv")
 # ---- 5. VERIFY ------------------------------------------------------
 # TODO: Restart R, read one clean file back from its GitHub Raw link,
 #       and confirm rows/columns match what you wrote.
+check_clean  <- read_csv("https://raw.githubusercontent.com/mmalo5/stat440-chicago-crashes/main/data/crashes-clean.csv")
+check_lookup <- read_csv("https://raw.githubusercontent.com/mmalo5/stat440-chicago-crashes/main/data/weather-lookup.csv")
+dim(check_clean)    # expect 977907 17
+dim(check_lookup) 
+
+
+
