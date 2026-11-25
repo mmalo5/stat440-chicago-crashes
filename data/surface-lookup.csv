@@ -1,0 +1,8 @@
+surface_id,roadway_surface_cond
+1,DRY
+2,ICE
+3,OTHER
+4,"SAND, MUD, DIRT"
+5,SNOW OR SLUSH
+6,UNKNOWN
+7,WET

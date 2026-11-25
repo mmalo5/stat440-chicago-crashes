@@ -1,0 +1,7 @@
+lighting_id,lighting_condition
+1,DARKNESS
+2,"DARKNESS, LIGHTED ROAD"
+3,DAWN
+4,DAYLIGHT
+5,DUSK
+6,UNKNOWN
